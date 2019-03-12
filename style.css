@@ -1,0 +1,77 @@
+.image {
+  height: 50em;
+  max-width: 60%;
+  margin: 5% auto;
+  display: block;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  margin-left: 80%;
+  padding: 1em;
+  margin-right: 15%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#uploadForm {
+  visibility: hidden;
+}
+
+.btn {
+  max-width: 80%;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.sm-btn {
+  max-width: 65%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.rmBtn {
+  margin: 0 auto;
+  display: block;
+}
+
+.login {
+  display: block;
+}
+
+input [type=text], input [type=password] {
+  width: 100%;
+  display: block;
+  padding: 2em;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 0.5em;
+  line-height: 2em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+label {
+  display: block;
+}

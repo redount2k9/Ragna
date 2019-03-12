@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="loginForm" class="modal center">
+  <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" id="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="psw" required>
+      <div class="center">
+        <button type="submit" id="authButton" class="sm-btn login">Login</button>
+      </div>
+  </div>
+</div>
+
+<div>
+  <div id="uploadForm" class="center">
+    <input type="file" accept="image/*" value="upload" id="browseInput" class="btn"/>
+    <button id="uploadButton" class="btn">Upload</button>
+  </div>
+  <span class="right">
+    <button id="mainLoginButton">Login</button>
+  </span>
+</div>
+
+<div class="right">
+  <button id="modeSwitchButton">Switch Theme</button>
+</div>
+
+<div class="center">
+  <div id="element">
+  </div>
+</div>
+
+</html>
+<script src="appConfig.js"></script>
+<script src="ui.js"> </script>
