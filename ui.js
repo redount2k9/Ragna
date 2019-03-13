@@ -118,8 +118,8 @@ authButton.addEventListener('click', (e) => {
 });
 
 modeSwitchButton.addEventListener('click', (e) => {
-  document.body.style.backgroundColor = (nightMode == true ? "#243447" : "#ffffff");
   nightMode = !nightMode;
+  document.body.style.backgroundColor = (nightMode == true ? "#243447" : "#ffffff");
 });
 
 firebase.auth().onAuthStateChanged((user) => {
